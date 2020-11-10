@@ -1,16 +1,32 @@
-### Hi there 👋
+# agentnooby
 
-<!--
-**agentnooby/agentnooby** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Socials
+[agentnooby's Twitter](https://twitter.com/agentnooby)
 
-Here are some ideas to get you started:
+[agentnooby's Instagram](https://instagram.com/agentnooby)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## NerveRift
+[Home Site](https://nerverift.com)
+
+[Support Site](https://support.nerverift.com)
+
+[NerveRift Twitter](https://twitter.com/nerverift)
+
+[NerveRift Instagram](https://instagram.com/nerverift)
+
+## My Stats
+<a href="https://github.com/agentnooby" target="_blank">
+  <img src="https://github-readme-stats.vercel.app/api?username=agentnooby&count_private=true&show_icons=true" alt="agentnooby's github stats" />
+</a>
+
+## My Projects
+
+I am currently working on the NerveRift Project.
+
+### Links
+
+[NerveRift](https://github.com/NerveRift)
+
+[NerveRift Staff](https://github.com/NerveRiftStaff)
+
+[NerveRift Open](https://github.com/NerveRiftOpen)
