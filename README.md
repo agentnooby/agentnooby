@@ -1,18 +1,18 @@
 # agentnooby
 
 ## Socials
-[agentnooby's Twitter](https://twitter.com/agentnooby)
+<img src="./content/twitter.svg" width="15" height="15">[ agentnooby's Twitter](https://twitter.com/agentnooby)
 
-[agentnooby's Instagram](https://instagram.com/agentnooby)
+<img src="./content/instagram.svg" width="15" height="15">[ agentnooby's Instagram](https://instagram.com/agentnooby)
 
 ## NerveRift
 [Home Site](https://nerverift.com)
 
 [Support Site](https://support.nerverift.com)
 
-[NerveRift Twitter](https://twitter.com/nerverift)
+<img src="./content/twitter.svg" width="15" height="15">[ NerveRift Twitter](https://twitter.com/nerverift)
 
-[NerveRift Instagram](https://instagram.com/nerverift)
+<img src="./content/instagram.svg" width="15" height="15">[ NerveRift Instagram](https://instagram.com/nerverift)
 
 ## My Stats
 <a href="https://github.com/agentnooby" target="_blank">
