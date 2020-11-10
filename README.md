@@ -1,4 +1,11 @@
-# agentnooby
+# Arsen Storm - agentnooby
+
+```console
+agentnooby@NerveRift:~$ whoami
+agentnooby
+agentnooby@NerveRift:~$ agentnooby | more
+I'm Arsen Storm nicknamed agentnooby
+```
 
 ## Socials
 <img src="./content/twitter.svg" width="15" height="15">[ agentnooby's Twitter](https://twitter.com/agentnooby)
@@ -9,6 +16,8 @@
 [Home Site](https://nerverift.com)
 
 [Support Site](https://support.nerverift.com)
+
+[Support Email](mailto:support@nerverift.com)
 
 <img src="./content/twitter.svg" width="15" height="15">[ NerveRift Twitter](https://twitter.com/nerverift)
 
@@ -21,9 +30,13 @@
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=agentnooby&repo=agentnooby&hide_border=true&theme=tokyonight)](https://github.com/agentnooby/agentnooby)
 
-## My Projects
+## My Projects :octocat:
 
-I am currently working on the NerveRift Project.
+```console
+agentnooby@NerveRift:~$ cat pojects.txt
+ - The NerveRift Project
+ - JARVIS
+```
 
 ### Links
 
