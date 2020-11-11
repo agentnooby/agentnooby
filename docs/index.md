@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+# Arsen Storm - agentnooby
 
-You can use the [editor on GitHub](https://github.com/agentnooby/agentnooby/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```console
+agentnooby@NerveRift:~$ whoami
+agentnooby
+agentnooby@NerveRift:~$ agentnooby | more
+I'm Arsen Storm nicknamed agentnooby
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Socials
+<img src="./content/twitter.svg" width="15" height="15">[ agentnooby's Twitter](https://twitter.com/agentnooby)
 
-### Jekyll Themes
+<img src="./content/instagram.svg" width="15" height="15">[ agentnooby's Instagram](https://instagram.com/agentnooby)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/agentnooby/agentnooby/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## NerveRift
+[Home Site](https://nerverift.com)
 
-### Support or Contact
+[Support Site](https://support.nerverift.com)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Support Email](mailto:support@nerverift.com)
+
+<img src="./content/twitter.svg" width="15" height="15">[ NerveRift Twitter](https://twitter.com/nerverift)
+
+<img src="./content/instagram.svg" width="15" height="15">[ NerveRift Instagram](https://instagram.com/nerverift)
+
+## My Stats
+<a href="https://github.com/agentnooby" target="_blank">
+  <img src="https://github-readme-stats.vercel.app/api?username=agentnooby&count_private=true&show_icons=true&hide_border=true&hide_title=true&theme=tokyonight" alt="agentnooby's github stats" />
+</a>
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=agentnooby&repo=agentnooby&hide_border=true&theme=tokyonight)](https://github.com/agentnooby/agentnooby)
+
+## My Projects :octocat:
+
+```console
+agentnooby@NerveRift:~$ cat pojects.txt
+ - The NerveRift Project
+ - JARVIS
+```
+
+### Links
+
+[NerveRift](https://github.com/NerveRift)
+
+[NerveRift Staff](https://github.com/NerveRiftStaff)
+
+[NerveRift Open](https://github.com/NerveRiftOpen)
