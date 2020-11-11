@@ -8,9 +8,9 @@ I'm Arsen Storm nicknamed agentnooby
 ```
 
 ## Socials
-<img src="./content/twitter.svg" width="15" height="15">[ agentnooby's Twitter](https://twitter.com/agentnooby)
+<img src="../content/twitter.svg" width="15" height="15">[ agentnooby's Twitter](https://twitter.com/agentnooby)
 
-<img src="./content/instagram.svg" width="15" height="15">[ agentnooby's Instagram](https://instagram.com/agentnooby)
+<img src="../content/instagram.svg" width="15" height="15">[ agentnooby's Instagram](https://instagram.com/agentnooby)
 
 ## NerveRift
 [Home Site](https://nerverift.com)
@@ -19,9 +19,9 @@ I'm Arsen Storm nicknamed agentnooby
 
 [Support Email](mailto:support@nerverift.com)
 
-<img src="./content/twitter.svg" width="15" height="15">[ NerveRift Twitter](https://twitter.com/nerverift)
+<img src="../content/twitter.svg" width="15" height="15">[ NerveRift Twitter](https://twitter.com/nerverift)
 
-<img src="./content/instagram.svg" width="15" height="15">[ NerveRift Instagram](https://instagram.com/nerverift)
+<img src="../content/instagram.svg" width="15" height="15">[ NerveRift Instagram](https://instagram.com/nerverift)
 
 ## My Stats
 <a href="https://github.com/agentnooby" target="_blank">
