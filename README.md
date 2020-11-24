@@ -34,8 +34,8 @@ I'm Arsen Storm nicknamed agentnooby
 
 ```console
 agentnooby@NerveRift:~$ cat pojects.txt
- - The NerveRift Project
- - JARVIS
+ - NerveRift
+ - BadWindows
 ```
 
 ### Links
