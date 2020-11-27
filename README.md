@@ -3,8 +3,6 @@
 ```console
 agentnooby@NerveRift:~$ whoami
 agentnooby
-agentnooby@NerveRift:~$ agentnooby | more
-I'm Arsen Storm nicknamed agentnooby
 ```
 
 ## Socials
