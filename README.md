@@ -1,14 +1,14 @@
-# Arsen Storm - agentnooby
+# Arsen Storm - arsenstorm
 
 ```console
-agentnooby@NerveRift:~$ whoami
-agentnooby
+arsenstorm@NerveRift:~$ whoami
+arsenstorm
 ```
 
 ## Socials
-<img src="./content/twitter.svg" width="15" height="15">[ agentnooby's Twitter](https://twitter.com/agentnooby)
+<img src="./content/twitter.svg" width="15" height="15">[ arsenstorm's Twitter](https://twitter.com/arsenstorm)
 
-<img src="./content/instagram.svg" width="15" height="15">[ agentnooby's Instagram](https://instagram.com/agentnooby)
+<img src="./content/instagram.svg" width="15" height="15">[ arsenstorm's Instagram](https://instagram.com/arsenstorm)
 
 ## NerveRift
 [Home Site](https://nerverift.com)
@@ -22,16 +22,16 @@ agentnooby
 <img src="./content/instagram.svg" width="15" height="15">[ NerveRift Instagram](https://instagram.com/nerverift)
 
 ## My Stats
-<a href="https://github.com/agentnooby" target="_blank">
-  <img src="https://github-readme-stats.vercel.app/api?username=agentnooby&count_private=true&show_icons=true&hide_border=true&hide_title=true&theme=tokyonight" alt="agentnooby's github stats" />
+<a href="https://github.com/arsenstorm" target="_blank">
+  <img src="https://github-readme-stats.vercel.app/api?username=arsenstorm&count_private=true&show_icons=true&hide_border=true&hide_title=true&theme=tokyonight" alt="arsenstorm's github stats" />
 </a>
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=agentnooby&repo=badwindows&hide_border=true&theme=tokyonight)](https://github.com/agentnooby/BadWindows)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=arsenstorm&repo=badwindows&hide_border=true&theme=tokyonight)](https://github.com/arsenstorm/BadWindows)
 
 ## My Projects :octocat:
 
 ```console
-agentnooby@NerveRift:~$ cat pojects.txt
+arsenstorm@NerveRift:~$ cat pojects.txt
  - NerveRift
  - BadWindows
  - email2post
