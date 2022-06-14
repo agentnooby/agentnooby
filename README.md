@@ -8,8 +8,6 @@ arsenstorm
 ## Socials
 <img src="./content/twitter.svg" width="15" height="15">[ arsenstorm's Twitter](https://twitter.com/arsenstorm)
 
-<img src="./content/instagram.svg" width="15" height="15">[ arsenstorm's Instagram](https://instagram.com/arsenstorm)
-
 ## NerveRift
 [Home Site](https://nerverift.com)
 
@@ -33,8 +31,6 @@ arsenstorm
 ```console
 arsenstorm@NerveRift:~$ cat pojects.txt
  - NerveRift
- - BadWindows
- - email2post
 ```
 
 ### Links
