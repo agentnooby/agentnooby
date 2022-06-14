@@ -1,1 +1,1 @@
-![Metrics](https://metrics.lecoq.io/arsenstorm?template=classic&base.community=0&base.repositories=0&isocalendar=1&tweets=1&lines=1&base.indepth=false&base.hireable=false&isocalendar.duration=full-year&tweets.attachments=true&tweets.limit=1&tweets.user=arsenstorm&config.timezone=Europe%2FLondon)
+![Metrics](https://metrics.lecoq.io/arsenstorm?template=classic&base.repositories=0&isocalendar=1&tweets=1&base.indepth=false&base.hireable=false&isocalendar.duration=full-year&tweets.attachments=false&tweets.limit=1&tweets.user=arsenstorm&config.timezone=Europe%2FLondon)
