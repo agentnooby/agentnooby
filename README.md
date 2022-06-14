@@ -20,4 +20,6 @@ arsenstorm
 ```console
 arsenstorm@NerveRift:~$ cat pojects.txt
  - NerveRift
+ - Edurift
+ - 0n00
 ```
