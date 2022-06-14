@@ -6,18 +6,7 @@ arsenstorm
 ```
 
 ## Socials
-<img src="./content/twitter.svg" width="15" height="15">[ arsenstorm's Twitter](https://twitter.com/arsenstorm)
-
-## NerveRift
-[Home Site](https://nerverift.com)
-
-[Support Site](https://support.nerverift.com)
-
-[Support Email](mailto:support@nerverift.com)
-
-<img src="./content/twitter.svg" width="15" height="15">[ NerveRift Twitter](https://twitter.com/nerverift)
-
-<img src="./content/instagram.svg" width="15" height="15">[ NerveRift Instagram](https://instagram.com/nerverift)
+[ arsenstorm's Twitter](https://twitter.com/arsenstorm)
 
 ## My Stats
 <a href="https://github.com/arsenstorm" target="_blank">
@@ -32,11 +21,3 @@ arsenstorm
 arsenstorm@NerveRift:~$ cat pojects.txt
  - NerveRift
 ```
-
-### Links
-
-[NerveRift](https://github.com/NerveRift)
-
-[NerveRift Staff](https://github.com/NerveRiftStaff)
-
-[NerveRift Open](https://github.com/NerveRiftOpen)
