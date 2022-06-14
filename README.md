@@ -1,1 +1,25 @@
-![Metrics](https://metrics.lecoq.io/arsenstorm?template=classic&base.repositories=0&isocalendar=1&tweets=1&base.indepth=false&base.hireable=false&isocalendar.duration=full-year&tweets.attachments=false&tweets.limit=1&tweets.user=arsenstorm&config.timezone=Europe%2FLondon)
+# Arsen Storm - arsenstorm
+
+```console
+arsenstorm@NerveRift:~$ whoami
+arsenstorm
+```
+
+## Socials
+[My Twitter](https://twitter.com/arsenstorm)
+
+## My Stats
+<a href="https://github.com/arsenstorm" target="_blank">
+  <img src="https://github-readme-stats.vercel.app/api?username=arsenstorm&count_private=true&show_icons=true&hide_border=true&hide_title=true&theme=tokyonight" alt="arsenstorm's github stats" />
+</a>
+
+[![arsenstorm's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=arsenstorm&hide_border=true&theme=tokyonight)](https://github.com/arsenstorm)
+
+## My Projects :octocat:
+
+```console
+arsenstorm@NerveRift:~$ cat pojects.txt
+ - NerveRift
+ - Edurift
+ - 0n00
+```
