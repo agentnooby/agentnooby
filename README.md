@@ -13,7 +13,7 @@ arsenstorm
   <img src="https://github-readme-stats.vercel.app/api?username=arsenstorm&count_private=true&show_icons=true&hide_border=true&hide_title=true&theme=tokyonight" alt="arsenstorm's github stats" />
 </a>
 
-[![arsenstorm's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=arsenstorm&hide_border=true&theme=tokyonight)](https://github.com/arsenstorm)
+[![arsenstorm's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=arsenstorm&hide_border=true&theme=tokyonight)](https://wakatime.com/@arsenstorm)
 
 ## My Projects :octocat:
 
