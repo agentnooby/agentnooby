@@ -12,8 +12,10 @@ arsenstorm
 <a href="https://github.com/arsenstorm" target="_blank">
   <img src="https://github-readme-stats.vercel.app/api?username=arsenstorm&count_private=true&show_icons=true&hide_border=true&hide_title=true&theme=tokyonight" alt="arsenstorm's github stats" />
 </a>
-
-[![arsenstorm's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=arsenstorm&hide_border=true&theme=tokyonight)](https://wakatime.com/@arsenstorm)
+<br>
+<a href="https://wakatime.com/@arsenstorm" target="_blank">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=arsenstorm&hide_border=true&theme=tokyonight" alt="arsenstorm's wakatime stats" />
+</a>
 
 ## My Projects :octocat:
 
