@@ -1,5 +1,10 @@
 # Arsen Storm - arsenstorm
 
+Hey👋
+
+I'm a full-stack engineer with a strong passion for building responsive applications that positively impact the world.
+
+
 ```console
 arsenstorm@NerveRift:~$ whoami
 arsenstorm
