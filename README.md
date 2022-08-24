@@ -10,8 +10,14 @@ arsenstorm@NerveRift:~$ whoami
 arsenstorm
 ```
 
-## Socials
-[My Twitter](https://twitter.com/arsenstorm)
+## Connect with me 🥳
+<a href="https://twitter.com/arsenstorm" style="font-size: 18px;">using Twitter</a>
+
+<b style="font-size: 14px;">OR</b>
+
+<a href="https://linkedin.com/in/arsenstorm" style="font-size: 18px;">using LinkedIn</a>
+
+
 
 ## My Stats
 <a href="https://github.com/arsenstorm" target="_blank">
