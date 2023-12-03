@@ -1,21 +1,21 @@
 export const USERNAME = 'arsenstorm'; // This is your GitHub username
 
 export const LIGHT_COLORS = {
-  text: '#255DF6',
-  bg0: '#EBEDF0',
-  bg1: '#A7BEFB',
-  bg2: '#628BF9',
-  bg3: '#4071F7',
-  bg4: '#255DF6',
+  text: '#000',
+  bg0: '#ebedf0',
+  bg1: '#ffee4a',
+  bg2: '#ffc501',
+  bg3: '#fe9600',
+  bg4: '#03001c',
   border: 'rgb(0 0 0 / 0.06)'
 };
 
 export const DARK_COLORS = {
-  text: '#255DF6',
-  bg0: '#171B21',
-  bg1: '#152A62',
-  bg2: '#2048B3',
-  bg3: '#1951EB',
-  bg4: '#0048FF',
+  text: '#fff',
+  bg0: '#161b22',
+  bg1: '#631c03',
+  bg2: '#bd561d',
+  bg3: '#fa7a18',
+  bg4: '#fddf68',
   border: 'rgb(0 0 0 / 0.06)'
 };
