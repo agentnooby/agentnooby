@@ -1,9 +1,7 @@
 import { writeFile } from 'node:fs/promises';
 import type { Year } from '../src/worker';
 
-import {
-  USERNAME
-} from '../lib/variables';
+import { USERNAME } from '../lib/variables';
 
 export const START_DATE = new Date('2012-09-07T04:00:00.000Z');
 
@@ -11,11 +9,11 @@ export type Contribution = {
   contributionCount: number;
   date: string;
   contributionLevel:
-  | 'NONE'
-  | 'FIRST_QUARTILE'
-  | 'SECOND_QUARTILE'
-  | 'THIRD_QUARTILE'
-  | 'FOURTH_QUARTILE';
+    | 'NONE'
+    | 'FIRST_QUARTILE'
+    | 'SECOND_QUARTILE'
+    | 'THIRD_QUARTILE'
+    | 'FOURTH_QUARTILE';
 };
 
 export type Response = {

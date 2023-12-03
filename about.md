@@ -39,4 +39,3 @@ pnpm run deploy
 ## Setup
 
 Get your Cloudflare API token & account ID, and set them as environment variables inside of GitHub actions.
-
