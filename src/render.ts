@@ -7,23 +7,23 @@ const BODY_COPY = `I’m Arsen, a software engineer based in London.`;
 import { LIGHT_COLORS, DARK_COLORS, USERNAME } from '../lib/variables';
 
 interface Props {
-	width?: number;
-	height: number;
-	theme: 'light' | 'dark';
+  width?: number;
+  height: number;
+  theme: 'light' | 'dark';
 }
 
 interface Attributes {
-	height: string;
-	'data-theme': 'light' | 'dark';
-	[key: string]: string;
+  height: string;
+  'data-theme': 'light' | 'dark';
+  [key: string]: string;
 }
 
 const attr = (obj: Record<string, string>) =>
-	Object.entries(obj).reduce((acc, [key, value]) => `${acc} ${key}="${value}"`, '');
+  Object.entries(obj).reduce((acc, [key, value]) => `${acc} ${key}="${value}"`, '');
 
 const svg = (styles: string, html: string, attributes: Attributes) => {
-	if (!attributes.width) attributes.width = '100%';
-	return /*html*/ `
+  if (!attributes.width) attributes.width = '100%';
+  return /*html*/ `
 	<svg xmlns="http://www.w3.org/2000/svg" fill="none" ${attr(attributes)}>
 		<foreignObject width="100%" height="100%">
 			<div xmlns="http://www.w3.org/1999/xhtml">
@@ -181,22 +181,22 @@ export const shared = /* css */ `
 `;
 
 export type Main = {
-	years: Year[];
-	sizes: number[][];
-	length: number;
-	location: { city: string; country: string };
-	dots: {
-		rows: number;
-		size: number;
-		gap: number;
-	};
-	year: {
-		gap: number;
-	};
+  years: Year[];
+  sizes: number[][];
+  length: number;
+  location: { city: string; country: string };
+  dots: {
+    rows: number;
+    size: number;
+    gap: number;
+  };
+  year: {
+    gap: number;
+  };
 };
 
 export const main = (props: Props & Main) => {
-	const styles = /*css*/ `
+  const styles = /*css*/ `
 		${shared}
 
 		:root {
@@ -318,51 +318,51 @@ export const main = (props: Props & Main) => {
 		.dot--4 { background-color: var(--color-dot-bg-4); }
 	`;
 
-	const format = (date: Date) =>
-		date.toLocaleDateString('en-US', {
-			year: 'numeric',
-			month: 'short',
-			day: 'numeric'
-		});
+  const format = (date: Date) =>
+    date.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric'
+    });
 
-	const date = (i: number) =>
-		i == 0 ? format(new Date()) : new Date(props.years[i].from).getFullYear();
+  const date = (i: number) =>
+    i == 0 ? format(new Date()) : new Date(props.years[i].from).getFullYear();
 
-	const days = (days: Year['days']) =>
-		days.map((level) => `<div class="dot dot--${level}"></div>`).join('');
+  const days = (days: Year['days']) =>
+    days.map((level) => `<div class="dot dot--${level}"></div>`).join('');
 
-	const html = /* html */ `
+  const html = /* html */ `
 		<main class="wrapper grid">
 			<article class="intro">
 				<p>${BODY_COPY.split('')
-			.map((c, i) => `<span class="fade-in" style="--i: ${i};">${c}</span>`)
-			.join('')}</p>
+          .map((c, i) => `<span class="fade-in" style="--i: ${i};">${c}</span>`)
+          .join('')}</p>
 			</article>
 			<article class="graph">
 				<div class="years" style="--w: ${props.length}; --h: ${props.sizes[0][1]};">
 					${props.years
-			.map(
-				(year, i) => /* html */ `
+            .map(
+              (year, i) => /* html */ `
 						<div class="year year--${i}" style="--w: ${props.sizes[i][0]}; --h: ${props.sizes[i][1]};">
 							<div class="year__days">${days(year.days)}</div>
 							<div class="year__label label"><span>${date(i)}</span></div>
 						</div>
 					`
-			)
-			.join('')}
+            )
+            .join('')}
 				</div>
 			</article>
 		</main>
 	`;
 
-	return svg(styles, html, {
-		height: `${props.height}`,
-		'data-theme': `${props.theme}`
-	});
+  return svg(styles, html, {
+    height: `${props.height}`,
+    'data-theme': `${props.theme}`
+  });
 };
 
 export const top = (props: Props & { contributions: number }) => {
-	const styles = /* css */ `
+  const styles = /* css */ `
 		${shared}
 
 		:root {
@@ -417,7 +417,7 @@ export const top = (props: Props & { contributions: number }) => {
 		}
 	`;
 
-	const html = /*html*/ `
+  const html = /*html*/ `
 		<div class="wrapper grid label">
 			<div class="menu fade-in">Menu</div>
 			<div class="contributions fade-in">
@@ -427,14 +427,14 @@ export const top = (props: Props & { contributions: number }) => {
 		</div>
 	`;
 
-	return svg(styles, html, {
-		height: `${props.height}`,
-		'data-theme': `${props.theme}`
-	});
+  return svg(styles, html, {
+    height: `${props.height}`,
+    'data-theme': `${props.theme}`
+  });
 };
 
 export const link = (props: Props & { index: number }) => (label: string) => {
-	const styles = /*css*/ `
+  const styles = /*css*/ `
 		${shared}
 
 		:root {
@@ -484,7 +484,7 @@ export const link = (props: Props & { index: number }) => (label: string) => {
 		}
 	`;
 
-	const html = /*html*/ `
+  const html = /*html*/ `
 		<main class="wrapper">
 			<a class="link fade-in">
 				<div class="link__label shine">${label}</div>
@@ -493,15 +493,15 @@ export const link = (props: Props & { index: number }) => (label: string) => {
 		</main>
 	`;
 
-	return svg(styles, html, {
-		width: `${props.width}`,
-		height: `${props.height}`,
-		'data-theme': `${props.theme}`
-	});
+  return svg(styles, html, {
+    width: `${props.width}`,
+    height: `${props.height}`,
+    'data-theme': `${props.theme}`
+  });
 };
 
 export const fallback = (props: Props & { width: number }) => {
-	const styles = /* css */ `
+  const styles = /* css */ `
 		${shared}
 
 		:root {
@@ -539,12 +539,12 @@ export const fallback = (props: Props & { width: number }) => {
 		}
 	`;
 
-	const html = /* html */ `
+  const html = /* html */ `
 		<main class="wrapper">
 			<div class="intro">
 				<p>${BODY_COPY.split('')
-			.map((c, i) => `<span class="fade-in" style="--i: ${i};">${c}</span>`)
-			.join('')}</p>
+          .map((c, i) => `<span class="fade-in" style="--i: ${i};">${c}</span>`)
+          .join('')}</p>
 				<p class="hint fade-in">
 					Slight issue... Firefox doesn't support <code>foreignObject</code> yet.
 				</p>
@@ -552,10 +552,10 @@ export const fallback = (props: Props & { width: number }) => {
 		</main>
 	`;
 
-	return svg(styles, html, {
-		width: `${props.width}`,
-		height: `${props.height}`,
-		'data-theme': `${props.theme}`,
-		viewbox: `0 0 ${props.width} ${props.height}`
-	});
+  return svg(styles, html, {
+    width: `${props.width}`,
+    height: `${props.height}`,
+    'data-theme': `${props.theme}`,
+    viewbox: `0 0 ${props.width} ${props.height}`
+  });
 };
