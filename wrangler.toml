@@ -1,0 +1,3 @@
+name = "arsenstorm"
+main = "src/worker.ts"
+compatibility_date = "2023-11-21"
