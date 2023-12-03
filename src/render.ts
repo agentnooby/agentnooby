@@ -2,7 +2,7 @@ import type { Year } from './worker';
 
 const BP_MEDIUM = 550;
 const BP_LARGE = 700;
-const BODY_COPY = `I’m Arsene, a software engineer based in London.`;
+const BODY_COPY = `I’m Arsen, a software engineer based in London.`;
 
 import {
 	LIGHT_COLORS,
