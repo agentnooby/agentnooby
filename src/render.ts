@@ -345,7 +345,8 @@ export const main = (props: Props & Main) => {
               (year, i) => /* html */ `
 						<div class="year year--${i}" style="--w: ${props.sizes[i][0]}; --h: ${props.sizes[i][1]};">
 							<div class="year__days">${days(year.days)}</div>
-							<div class="year__label label"><span>${date(i)}</span></div>
+							<!-- If you want to show the year/month label, uncomment this -->
+							<!--<div class="year__label label"><span>${date(i)}</span></div>-->
 						</div>
 					`
             )
