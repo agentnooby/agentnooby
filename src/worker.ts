@@ -14,27 +14,27 @@ const worker: ExportedHandler = {
     const { searchParams } = new URL(request.url);
     const theme = (searchParams.get('theme') ?? 'light') as 'light' | 'dark';
     const section = searchParams.get('section') ?? '';
-    let content = ':-)';
+    let content;
 
     if (section === 'top') {
       const { contributions } = data;
       content = top({ height: 20, contributions, theme });
     } else if (section === 'link-website') {
-      const index = Number(searchParams.get('i')) ?? 0;
+      const index = Number(searchParams.get('i'));
       content = link({ height: 18, width: 100, index, theme })('Website');
     } else if (section === 'link-twitter') {
-      const index = Number(searchParams.get('i')) ?? 0;
+      const index = Number(searchParams.get('i'));
       content = link({ height: 18, width: 100, index, theme })('Twitter');
     } else if (section === 'link-instagram') {
-      const index = Number(searchParams.get('i')) ?? 0;
+      const index = Number(searchParams.get('i'));
       content = link({ height: 18, width: 100, index, theme })('Instagram');
     } else if (section == 'fallback') {
       content = fallback({ height: 180, width: 420, theme });
     } else {
       const years = data.years.slice(0, MAX_YEARS);
       const location = {
-        city: (request.cf?.city || '') as string,
-        country: (request.cf?.country || '') as string
+        city: request.cf?.city ?? '',
+        country: request.cf?.country ?? ''
       };
       const options = {
         dots: {

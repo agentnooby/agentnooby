@@ -4,7 +4,7 @@ const BP_MEDIUM = 550;
 const BP_LARGE = 700;
 const BODY_COPY = `I’m Arsen, a software engineer based in London.`;
 
-import { LIGHT_COLORS, DARK_COLORS, USERNAME } from '../lib/variables';
+import { LIGHT_COLORS, DARK_COLORS } from '../lib/variables';
 
 interface Props {
   width?: number;
