@@ -9,29 +9,23 @@ on:
     - cron: '0 0,12 * * *'
 
 jobs:
-  run-pnpm-script:
+  run-bun-script:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Setup PNPM
-        uses: pnpm/action-setup@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          version: 8.10.5
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20.8.1
-          cache: 'pnpm'
+          bun-version: latest
 
       - name: Install Dependencies
-        run: pnpm install
+        run: bun install
 
       - name: Fetch Stats
-        run: pnpm stats
+        run: bun run stats
         env:
           API_TOKEN_GITHUB: ${{ secrets.GITHUB_TOKEN }}
 

@@ -29,5 +29,5 @@
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://readme.arsenstorm.com?section=main&theme=dark">
-  <img src="https://readme.arsenstorm.com?section=main&theme=light" alt="I’m Arsen, a software engineer based in London." width="100%" height="290" align="left">
+  <img src="https://readme.arsenstorm.com?section=main&theme=light" alt="I’m Arsen, a builder, philosopher, and tinkerer." width="100%" height="290" align="left">
 </picture>

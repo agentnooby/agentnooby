@@ -6,19 +6,15 @@ on:
       - main
 
 jobs:
-  run-pnpm-script:
+  run-bun-script:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
+      - uses: oven-sh/setup-bun@v1
         with:
-          version: 8.10.5
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20.8.1
-          cache: 'pnpm'
+          bun-version: latest
 
-      - run: pnpm install
-      - run: pnpm types
-      - run: pnpm lint
+      - run: bun install
+      - run: bun run types
+      - run: bun run lint
