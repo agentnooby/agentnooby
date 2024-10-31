@@ -1,10 +1,10 @@
-declare module '*.json' {
-  type Year = import('./worker').Year;
+declare module "*.json" {
+	type Year = import("./worker").Year;
 
-  const value: {
-    years: Year[];
-    contributions: number;
-  };
+	const value: {
+		years: Year[];
+		contributions: number;
+	};
 
-  export default value;
+	export default value;
 }
