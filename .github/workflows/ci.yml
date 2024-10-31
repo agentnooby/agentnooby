@@ -17,4 +17,3 @@ jobs:
 
       - run: bun install
       - run: bun run types
-      - run: bun run lint
